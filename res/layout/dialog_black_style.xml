@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+
+     <!-- 不知道为啥，必须用一个RelativeLayout做容器该视图才在对话框中正常显示 -->
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gprs_tip_dialog_bg" 
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="20dp"
+    >
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="提示"
+        android:textColor="#33b5e5"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/dialog_line"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_marginTop="15dip"
+        android:background="@drawable/gprs_tip_dlg_line" />
+
+    <TextView
+        android:id="@+id/dialog_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="15dip"
+        android:gravity="center_vertical"
+        android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaa"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:id="@+id/dialog_box_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:orientation="horizontal" 
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:id="@+id/dialog_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/import_dialog_box_normal" />
+
+        <TextView
+            android:id="@+id/dialog_box_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="不再提示"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/gprs_tip_dlg_line_two" />
+
+    <RelativeLayout
+        android:id="@+id/dialog_bottom_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/dialog_cancel_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_toLeftOf="@+id/dialog_btn_line"
+            android:background="@drawable/gprs_tip_btn_selector"
+            android:gravity="center"
+            android:padding="0dip"
+            android:text="取消"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/dialog_btn_line"
+            android:layout_width="1dip"
+            android:layout_height="40dip"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/gprs_tip_dlg_line_two" />
+
+        <Button
+            android:id="@+id/dialog_sure_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_toRightOf="@id/dialog_btn_line"
+            android:background="@drawable/gprs_tip_highlight_btn_selector"
+            android:gravity="center"
+            android:padding="0dip"
+            android:text="导入"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+    </RelativeLayout>
+</LinearLayout>
+</RelativeLayout>

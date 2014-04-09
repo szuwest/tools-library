@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:drawingCacheQuality="low"
+                android:alwaysDrawnWithCache="true"
+                android:animationCache="true"
+                android:background="#8000"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+    <LinearLayout android:padding="10dp"
+                  android:background="@drawable/common_dialog_bg"
+                  android:layout_alignParentBottom="true"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:visibility="invisible"
+                  android:id="@+id/CommonDialogLayout"
+                  android:layout_width="fill_parent">
+
+        <TextView android:layout_height="wrap_content"
+                  android:id="@+id/CommonDialogTitle"
+                  android:shadowDy="-2"
+                  android:gravity="center"
+                  android:shadowColor="#8000"
+                  android:textColor="#B8B8B8"
+                  android:textSize="14sp"
+                  android:layout_marginBottom="10dp"
+                  android:layout_width="fill_parent"/>
+
+        <LinearLayout android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:id="@+id/CommonDialogCustomContainer"
+                      android:layout_marginBottom="20dp"
+                      android:layout_width="fill_parent">
+        </LinearLayout>
+
+        <Button android:text="@string/cancel"
+                android:id="@+id/CommonDialogCancel"
+                android:shadowDy="-2"
+                android:gravity="center"
+                android:shadowColor="#8000"
+                android:textSize="14sp"
+                android:textColor="#FFF"
+                android:background="@drawable/common_dialog_button_grey"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"/>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+   	>
+    
+    <!-- 转菊花布局 -->
+    <RelativeLayout
+        android:id="@+id/xl_dlg_pro_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_sett_about_btnblack"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+		>
+
+        <ImageView
+            android:id="@+id/dialog_loading"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dip"
+            android:background="@drawable/wait_bg_anticlockwise_indicator" />
+
+        <TextView
+            android:id="@+id/dialog_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dialog_loading"
+            android:layout_centerHorizontal="true"
+            android:text="loading..."
+            android:ellipsize="end"
+            android:paddingTop="16dip"
+            android:paddingBottom="16dip"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:shadowRadius="1"
+            android:shadowColor="#8fff"
+            android:shadowDy="1"
+            android:maxWidth="200dp"
+            android:textSize="15sp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

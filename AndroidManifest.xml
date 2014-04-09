@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.szuwest.library"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:theme="@android:style/Theme.Light.NoTitleBar"
+        android:allowBackup="true"
+        >
+        <!-- **************************************** -->
+        <!-- *********     图片helper声明  *********** -->
+        <!-- **************************************** -->
+        <!-- 图片选择控件 -->
+        <activity
+            android:name="org.szuwest.image.ImagePicker$ImagePickerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+
+        <!-- 自定义图片裁剪 -->
+        <activity
+            android:name="org.szuwest.image.croper.CropImage"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="CropLabel"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 图片浏览器 ImageViewer -->
+        <activity
+            android:name="org.szuwest.image.ImageViewer"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <!-- 图片浏览器 ImageViewPager -->
+        <activity
+            android:name="org.szuwest.image.ImageViewPager"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+    </application>
+</manifest>

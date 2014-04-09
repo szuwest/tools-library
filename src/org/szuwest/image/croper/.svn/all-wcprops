@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/AndroidApp/!svn/ver/1270/trunk/XiaoenaiMain/src/com/xiaoenai/app/classes/common/image/croper
+END
+IImageList.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/AndroidApp/!svn/ver/707/trunk/XiaoenaiMain/src/com/xiaoenai/app/classes/common/image/croper/IImageList.java
+END
+ImageViewTouchBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/AndroidApp/!svn/ver/714/trunk/XiaoenaiMain/src/com/xiaoenai/app/classes/common/image/croper/ImageViewTouchBase.java
+END
+BitmapManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/AndroidApp/!svn/ver/714/trunk/XiaoenaiMain/src/com/xiaoenai/app/classes/common/image/croper/BitmapManager.java
+END
+CropImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/AndroidApp/!svn/ver/1270/trunk/XiaoenaiMain/src/com/xiaoenai/app/classes/common/image/croper/CropImage.java
+END
+RotateBitmap.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/AndroidApp/!svn/ver/707/trunk/XiaoenaiMain/src/com/xiaoenai/app/classes/common/image/croper/RotateBitmap.java
+END
+HighlightView.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/AndroidApp/!svn/ver/707/trunk/XiaoenaiMain/src/com/xiaoenai/app/classes/common/image/croper/HighlightView.java
+END
+MonitoredActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/AndroidApp/!svn/ver/707/trunk/XiaoenaiMain/src/com/xiaoenai/app/classes/common/image/croper/MonitoredActivity.java
+END
+BaseCancelable.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/AndroidApp/!svn/ver/714/trunk/XiaoenaiMain/src/com/xiaoenai/app/classes/common/image/croper/BaseCancelable.java
+END
+Cancelable.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/AndroidApp/!svn/ver/707/trunk/XiaoenaiMain/src/com/xiaoenai/app/classes/common/image/croper/Cancelable.java
+END
+IImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/AndroidApp/!svn/ver/714/trunk/XiaoenaiMain/src/com/xiaoenai/app/classes/common/image/croper/IImage.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/AndroidApp/!svn/ver/714/trunk/XiaoenaiMain/src/com/xiaoenai/app/classes/common/image/croper/Util.java
+END

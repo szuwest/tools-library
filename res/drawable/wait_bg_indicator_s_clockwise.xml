@@ -1,0 +1,18 @@
+<!-- 顺时针动画 -->
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:maxLevel="0" android:drawable="@drawable/wait_a01" />
+    <item android:maxLevel="1" android:drawable="@drawable/wait_a02" />
+    <item android:maxLevel="2" android:drawable="@drawable/wait_a03" />
+    <item android:maxLevel="3" android:drawable="@drawable/wait_a04" />
+    <item android:maxLevel="4" android:drawable="@drawable/wait_a05" />
+    <item android:maxLevel="5" android:drawable="@drawable/wait_a06" />
+    <item android:maxLevel="6" android:drawable="@drawable/wait_a07" />
+    <item android:maxLevel="7" android:drawable="@drawable/wait_a08" />
+    <item android:maxLevel="8" android:drawable="@drawable/wait_a09" /> 
+    <item android:maxLevel="9" android:drawable="@drawable/wait_a010" />
+    <item android:maxLevel="10" android:drawable="@drawable/wait_a011" />
+    <item android:maxLevel="11" android:drawable="@drawable/wait_a012" />
+    <item android:maxLevel="12" android:drawable="@drawable/wait_a013" />
+    <item android:maxLevel="13" android:drawable="@drawable/wait_a014" />
+    <item android:maxLevel="14" android:drawable="@drawable/wait_a015" />
+</level-list>

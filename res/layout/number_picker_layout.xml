@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+Copyright 2012 Taketoma
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+    <!-- 不知道为啥，必须用一个RelativeLayout做容器该视图才在对话框中正常显示 -->
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/main"
+	android:background="@drawable/xl_dlg_bg"
+	android:orientation="vertical"
+	android:paddingLeft="10dp"
+	android:paddingRight="10dp"
+	android:minWidth="300dp">
+
+	 <TextView
+		android:id="@+id/dlgTitle"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:gravity="center"
+		android:textSize="15sp"
+		android:text="@string/remind_me_before_minute"
+		android:textColor="@color/title_name"
+		 />
+	<LinearLayout android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal" 
+	    	android:layout_marginTop="5dp"
+	    	android:gravity="center_vertical|center_horizontal">
+		<TextView
+			android:id="@+id/txt_numberMIN"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="left"
+			android:textSize="15sp"
+			android:text="0"
+			android:textColor="@color/title_name"
+			 />
+		<TextView
+			android:id="@+id/txt_numberMAX"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="left"
+			android:textSize="15sp"
+			android:text="0"
+			android:layout_marginLeft="10dp"
+			android:textColor="@color/title_name"
+			 />
+	</LinearLayout>
+	<TextView
+		android:id="@+id/txt_inputNumber"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical|center_horizontal"
+		android:textSize="40sp"
+		android:textColor="@color/title_name"
+		 />
+	<LinearLayout android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal" 
+	    	android:gravity="center_vertical|center_horizontal">
+		    <Button
+		        android:id="@+id/btn_1"
+		        android:layout_width="80dp"
+		        android:layout_height="wrap_content"
+		        android:text="1" 
+		        android:background="@drawable/xl_dlg_right_btn_selector"
+		        android:textColor="#FFFFF5EE" />
+		    <Button
+		        android:id="@+id/btn_2"
+		        android:layout_width="80dp"
+		        android:layout_height="wrap_content"
+		        android:text="2" 
+		        android:background="@drawable/xl_dlg_right_btn_selector"
+		        android:textColor="#FFFFF5EE"/>
+		    <Button
+		        android:id="@+id/btn_3"
+		        android:layout_width="80dp"
+		        android:layout_height="wrap_content"
+		        android:text="3" 
+		        android:background="@drawable/xl_dlg_right_btn_selector"
+		        android:textColor="#FFFFF5EE"/>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal" 
+	    	android:gravity="center_vertical|center_horizontal">
+		    <Button
+		        android:id="@+id/btn_4"
+		        android:layout_width="80dp"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/xl_dlg_right_btn_selector"
+		        android:text="4" 
+		        android:textColor="#FFFFF5EE"/>
+		    <Button
+		        android:id="@+id/btn_5"
+		        android:layout_width="80dp"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/xl_dlg_right_btn_selector"
+		        android:text="5" 
+		        android:textColor="#FFFFF5EE"/>
+		    <Button
+		        android:id="@+id/btn_6"
+		        android:layout_width="80dp"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/xl_dlg_right_btn_selector"
+		        android:text="6" 
+		        android:textColor="#FFFFF5EE"/>
+	 </LinearLayout>
+	 <LinearLayout android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal" 
+	    	android:gravity="center_vertical|center_horizontal">
+		    <Button
+		        android:id="@+id/btn_7"
+		        android:layout_width="80dp"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/xl_dlg_right_btn_selector"
+		        android:text="7" 
+		        android:textColor="#FFFFF5EE"/>
+		    <Button
+		        android:id="@+id/btn_8"
+		        android:layout_width="80dp"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/xl_dlg_right_btn_selector"
+		        android:text="8" 
+		        android:textColor="#FFFFF5EE"/>
+		    <Button
+		        android:id="@+id/btn_9"
+		        android:layout_width="80dp"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/xl_dlg_right_btn_selector"
+		        android:text="9" 
+		        android:textColor="#FFFFF5EE"/>
+	 </LinearLayout>
+	 <LinearLayout android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal" 
+	    	android:gravity="center_vertical|center_horizontal">
+		    <Button
+		        android:id="@+id/btn_clear"
+		        android:layout_width="80dp"
+		        android:layout_height="wrap_content"
+		        android:text="@string/clear" 
+		        android:background="@drawable/xl_dlg_right_btn_selector"
+		        android:textColor="#FFFF0000"/>
+		    <Button
+		        android:id="@+id/btn_0"
+		        android:layout_width="80dp"
+		        android:layout_height="wrap_content"
+		        android:text="0" 
+		        android:background="@drawable/xl_dlg_right_btn_selector"
+		        android:textColor="#FFFFF5EE"/>
+		    <Button
+		        android:id="@+id/btn_back"
+		        android:layout_width="80dp"
+		        android:layout_height="wrap_content"
+		        android:text="@string/delete" 
+		        android:background="@drawable/xl_dlg_right_btn_selector"
+		        android:textColor="#FF0000FF"/>
+	 </LinearLayout> 
+	 <!-- 
+     <LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:gravity="center_vertical|center_horizontal"
+		android:layout_marginTop="20dp">
+		<Button
+			android:id="@+id/ok"
+			android:layout_width="100dp"
+			android:layout_height="wrap_content"
+			android:background="@drawable/xl_dlg_right_btn_selector"
+			android:text="@string/sure" />
+		<Button
+			android:id="@+id/cancel"
+			android:layout_width="100dp"
+			android:layout_height="wrap_content"
+			android:background="@drawable/xl_dlg_left_btn_selector"
+			android:text="@string/cancel" />
+	</LinearLayout>
+	 -->   
+	<RelativeLayout
+        android:id="@+id/dlg_2btn_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        >
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="118dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="19dp"
+            android:layout_toRightOf="@+id/ok"
+            android:background="@drawable/xl_dlg_left_btn_selector"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="#4f4f4f"
+            android:textSize="15sp" />
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="118dp"
+            android:layout_height="43dp"
+            android:background="@drawable/xl_dlg_right_btn_selector"
+            android:gravity="center"
+            android:text="@string/sure"
+            android:textColor="#4f4f4f"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</LinearLayout>
+</RelativeLayout>

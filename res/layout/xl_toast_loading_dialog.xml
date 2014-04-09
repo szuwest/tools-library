@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/scancoderesult_background"
+    >
+    <!-- 
+	    android:paddingLeft="15dip"
+	    android:paddingRight="15dip"
+	    android:paddingTop="5dp"
+	    android:paddingBottom="5dp"
+     -->
+    
+	<View android:layout_width="1dp"
+	    android:layout_height="5dp"/>
+	<RelativeLayout 
+	    android:id="@+id/xl_loading_dialog"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="15dip"
+	    android:paddingRight="15dip"
+	    android:gravity="center"
+	    >
+	        <ImageView android:contentDescription="@null"
+	            android:id="@+id/xl_loadingImg"
+	            android:layout_width="17dp"
+	            android:layout_height="17dp"
+	            android:layout_centerVertical="true"
+	            android:scaleType="centerInside"
+	            android:src="@drawable/wait_bg_indicator_s_anticlockwise" 
+	            />
+	
+	        <TextView
+	            android:id="@+id/xl_loading_hint"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_toRightOf="@+id/xl_loadingImg"
+	            android:layout_centerVertical="true"
+	            android:ellipsize="end"
+	            android:paddingLeft="12dp"
+	            android:singleLine="true"
+	            android:textColor="#ffffff"
+	            android:text="aaaaaaaaaaaaaaaaaa"
+	            android:textSize="11sp"
+	            />
+	    </RelativeLayout>
+	    <View android:layout_width="1dp"
+	    android:layout_height="5dp"/>
+</LinearLayout>

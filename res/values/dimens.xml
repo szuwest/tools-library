@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="topBar_height">50dip</dimen>
+	<dimen name="tab_height">48dip</dimen>
+	<dimen name="title_name">20sp</dimen>
+	<dimen name="title_vername">15sp</dimen>
+	<dimen name="title_apps">14sp</dimen>
+	<dimen name="tipsbar">14sp</dimen>
+	<dimen name="yiplay">14sp</dimen>
+	<dimen name="tabFont">18sp</dimen>
+	<dimen name="layoutMargin1">52dip</dimen>
+	<dimen name="layoutMargin2">8dip</dimen>
+	
+	<dimen name="listview_marginLeft">10dip</dimen>
+	<dimen name="listview_marginRight">10dip</dimen>
+	<dimen name="listview_marginTop">5dip</dimen>
+	<dimen name="listview_marginBottom">0dip</dimen>
+	<dimen name="ad_marginTop">2dip</dimen>
+	
+	<!-- setting item padding top and bottom -->
+	<dimen name="setting_height">70dip</dimen>
+	<dimen name="setting_paddingTB">10dip</dimen>
+	<dimen name="setting_btn_padding">12dip</dimen>
+	<!-- setting item padding left and right -->
+	<dimen name="setting_text_padding">25dip</dimen>
+	<dimen name="setting_tips_padding">12dip</dimen>
+	<dimen name="setting_arrow_padding">25dip</dimen>
+	
+	<dimen name="item_space">15dip</dimen>
+	<dimen name="barHeight">42dip</dimen>
+	
+	<dimen name="addcourse_text_width">80dip</dimen>
+	
+	<!-- font  -->
+	<dimen name="bt_cm_textsize_12">12sp</dimen> 
+	<dimen name="bt_cm_textsize_13">13sp</dimen> 
+	<dimen name="bt_cm_textsize_14">14sp</dimen> 
+	<dimen name="bt_cm_textsize_15">15sp</dimen> 
+	<dimen name="bt_cm_textsize_16">16sp</dimen> 
+	<dimen name="bt_cm_textsize_17">17sp</dimen> 
+	<dimen name="bt_cm_textsize_18">18sp</dimen> 
+	<dimen name="bt_cm_textsize_19">19sp</dimen> 
+	<dimen name="bt_cm_textsize_20">20sp</dimen> 
+	<dimen name="bt_cm_textsize_21">21sp</dimen> 
+	<dimen name="bt_cm_textsize_22">22sp</dimen> 
+	<dimen name="bt_cm_textsize_23">23sp</dimen> 
+	<dimen name="bt_cm_textsize_24">24sp</dimen>
+	<dimen name="bt_cm_textsize_25">25sp</dimen> 
+	<dimen name="bt_cm_textsize_26">26sp</dimen>
+	<dimen name="bt_cm_title_height">55dip</dimen>
+	
+</resources>

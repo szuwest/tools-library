@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="today_is"></string>
+	<string name="year">年</string>
+	<string name="month">月</string>
+	<string name="day_t">日,</string>
+	<string name="Monday">星期一</string>
+	<string name="monday">星期一</string>
+	<string name="tuesday">星期二</string>
+	<string name="wendesday">星期三</string>
+	<string name="thursday">星期四</string>
+	<string name="friday">星期五</string>
+	<string name="saturday">星期六</string>
+	<string name="sunday">星期日</string>
+	<string name="di">第</string>
+	<string name="jie">节</string>
+	
+    <string name="pickcolor">选择颜色</string>
+    <string name="pick_dialog_tips">点击圆的彩色边选择颜色，圆心将显示当前选择的颜色，点击圆心即确定选中该颜色.</string>
+
+	<string name="quit">退出</string>
+	<string name="quit_tips">你确定退出吗</string>
+	<string name="yes">是</string>
+    <string name="no">否</string>
+	<string name="sure">确定</string>
+	<string name="cancel">取消</string>
+    <string name="press_again_quit">再按一次退出</string>
+	
+	<string name="save_sucess">保存成功</string>
+	
+	<string name="feedback">意见反馈</string>
+	<string name="feedback_tips">欢迎反馈</string>
+	<string name="copy_right">版权所有</string>
+	
+	<string name="remind_me_before_minute">课前多少分钟提醒？</string>
+	<string name="clear">清除</string>
+	<string name="delete">删除</string>
+	<string name="min_value">"最小值 : "</string>
+	<string name="max_valure">"最大值 : "</string>
+
+    <!-- common image helper-->
+    <string name="common_image_take_photo">拍照</string>
+    <string name="common_image_pick_photo">从相册选择</string>
+    <string name="common_image_pick_picture_failed">选取图片失败</string>
+    <string name="common_image_crop_save">"  保存  "</string>
+    <string name="common_image_crop_cancel">"  取消  "</string>
+    <string name="common_image_crop_done">"  完成  "</string>
+	
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 自定义菊花 -->
+    <declare-styleable name="ProgressView">
+        <attr name="ProgressColor" format="enum">
+            <enum name="white" value="0"/>
+            <enum name="grey" value="1"/>
+            <enum name="circle" value="2"/>
+        </attr>
+    </declare-styleable>
+    
+    <!-- TopBar -->
+    <declare-styleable name="TopBar">
+        <attr name="topbarTitle" format="reference|string" />
+        <!-- title 对齐方式，靠左还是居中 -->
+        <attr name="topbarTitleAlign" format="enum">
+            <enum name="center" value="0"/>
+            <enum name="left" value="1"/>
+        </attr>
+        <!-- 标题背景-->
+        <attr name="titleBackground" format="reference" />
+        <!-- 如果左钮是图片模式，必须设置此项 -->
+        <attr name="leftButtonDrawable" format="reference" />
+        <!-- 如果左按钮是文字模式，必须设置此项 -->
+        <attr name="leftButtonText" format="reference|string" />
+        <!-- 如果右按钮是图片模式，必须设置此项 -->
+        <attr name="rightButtonDrawable" format="reference" />
+        <!-- 如果右按钮是文字模式，必须设置此项 -->
+        <attr name="rightButtonText" format="reference|string" />
+    </declare-styleable>
+    
+    <!-- 自定义头像属性 -->
+    <declare-styleable name="AvatarAttr">  
+        <attr name="avatarCover" format="reference" />  
+    </declare-styleable> 
+    
+    <!-- ListItemView -->
+	<declare-styleable name="ListItemView">
+        <attr name="itemPosition" format="enum">
+            <enum name="top" value="0" />
+            <enum name="center" value="1" />
+            <enum name="bottom" value="2" />
+            <enum name="one" value="3" />
+        </attr>
+        <attr name="itemTitle" format="reference|string" />
+        <attr name="itemSubTitle" format="reference|string" />
+        <attr name="hasNewFlag" format="boolean" />
+    </declare-styleable>
+    
+</resources>
